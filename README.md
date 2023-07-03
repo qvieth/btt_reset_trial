@@ -11,5 +11,5 @@ kill $(ps aux | grep 'BetterTouchTool' | awk '{print $2}')
 rm -rf ~/Library/Preferences/com.hegenberg.BetterTouchTool.plist
 rm -rf ~/Library/Application\ Support/BetterTouchTool/
 rm -rf /Applications/BetterTouchTool.app
-brew install --cask bettertouchtool`
+brew install --cask bettertouchtool
 ```
